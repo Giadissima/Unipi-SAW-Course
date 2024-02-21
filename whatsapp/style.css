@@ -1,0 +1,40 @@
+.side-bar{
+  width: 30%;
+  background-color: green;
+}
+
+.opened-chat{
+  width: 70%;
+  align-self:flex-end;
+  background-color: red;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.profile-pic{
+  width: 40px;
+  height: 40px;
+}
+
+.buttons-list{
+  display: flex;
+  justify-content: space-between;
+  background-color: #26353d;
+  padding: 10px;
+}
+
+.buttons-list>div{
+  padding: 5px;
+}
+
+.buttons-list>div>button{
+  background-color: transparent;
+  border: 0px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
