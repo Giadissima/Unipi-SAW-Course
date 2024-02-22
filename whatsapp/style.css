@@ -105,6 +105,35 @@ a {
 }
 
 .thumbnail-photo{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.cat-chat{
+  display: flex;
+  align-items: center;
+  padding:5px 15px 5px 15px;
+  background-color: #182229;
+  border: 0.2px solid gray;
+  padding: 10px;
+}
+
+.cat-name{
+  margin:0px;
+  color:white; 
+}
+
+.chat-preview{
+  margin:0px;
+  color:white; 
+}
+
+.last-message-timestamp{
+  color:white;
+  margin-left: auto;
+}
+
+.cat-chat-preview{
+  padding-left:20px;
 }
