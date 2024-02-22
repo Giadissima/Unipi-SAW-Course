@@ -5,17 +5,16 @@
 
 .side-bar{
   width: 30%;
-  background-color: green;
 }
 
 .opened-chat{
   width: 70%;
-  align-self:flex-end;
-  background-color: red;
+  background-color: #26353d;
 }
 
 .flex-container{
   display: flex;
+  align-items: center;
 }
 
 .profile-pic{
@@ -32,10 +31,6 @@
 
 .buttons-list>div{
   padding: 5px;
-}
-
-.buttons-list>div>button{
-  
 }
 
 body{
@@ -121,19 +116,48 @@ a {
 
 .cat-name{
   margin:0px;
-  color:white; 
 }
 
 .chat-preview{
   margin:0px;
-  color:white; 
 }
 
 .last-message-timestamp{
-  color:white;
   margin-left: auto;
 }
 
 .cat-chat-preview{
   padding-left:20px;
+}
+
+.opened-chat-settings{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.cat-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cat-info > h2{
+  padding-left: 10px;
+}
+
+h1,h2,h3,h4,p{
+  color:white;
+  padding:0px;
+  margin:0px
+}
+
+.opened-chat{
+  height: 100%;
+}
+
+.chat-settings>svg{
+  padding-left: 10px;
+  padding-right: 10px;
 }
