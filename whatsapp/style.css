@@ -1,6 +1,6 @@
 /* 
 #26353d medium gray
-
+#182229 dark gray
 */
 
 .side-bar{
@@ -175,5 +175,19 @@ h1,h2,h3,h4,p{
 
 .cats-chat-lists{
   height: 80vh;
-  overflow-y: scroll;
+  overflow-y:scroll;
+  scrollbar-color: white #182229;
+}
+
+.cats-chat-lists::-webkit-scrollbar {
+  width: 12px;
+}
+
+.cats-chat-lists::-webkit-scrollbar-track {
+  background: #21292d;
+} 
+
+.cats-chat-lists::-webkit-scrollbar-thumb {
+  background-color: #182229;
+  border-radius: 6px;
 }
