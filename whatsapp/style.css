@@ -1,3 +1,8 @@
+/* 
+#26353d medium gray
+
+*/
+
 .side-bar{
   width: 30%;
   background-color: green;
@@ -70,4 +75,36 @@ body{
 button{
   background-color: transparent;
   border: 0px;
+}
+
+.archived-chats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #26353d;
+}
+
+.archived-button, .archive-link{
+  padding: 5px 10px;
+}
+.archived-button{
+  padding-right: 20px !important;
+}
+
+.archive-link{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  ;
+}
+
+.thumbnail-photo{
+  width: 40px;
+  height: 40px;
 }
