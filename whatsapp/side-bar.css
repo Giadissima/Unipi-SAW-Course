@@ -6,7 +6,6 @@
 
 .flex-container{
   display: flex;
-  align-items: center;
 }
 
 .profile-pic{
@@ -37,6 +36,7 @@
   height: 30px;
   width: 81%;
   border-radius: 6px;
+  color: white;
 }
 
 .search-img{

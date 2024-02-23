@@ -19,6 +19,7 @@ body{
   justify-content: space-between;
   padding: 10px;
   align-items: center;
+  background-color: #26353d;
   border-left: 0.2px solid gray;
 }
 
@@ -44,15 +45,11 @@ h1,h2,h3,h4,p{
 }
 
 .opened-chat{
-  width: 100%;
-  height: 100%;
+  width: 70vw;
+  height: 84vh;
   position: relative;
-  background-color: black;
-}
-.opened-chat > img{
-  object-fit: cover;
-  width: 100%;
-  height: 87.65vh;
+  background-color: white;
+  /* overflow: hidden; */
 }
 
 .cats-chat-lists{
@@ -107,7 +104,9 @@ h1,h2,h3,h4,p{
   position: absolute;
   top: 0%;
   width: 100%;
-  height: 90vh;
+  height: 84vh;
+  background-image: url('src/background.jpg');
+  background-repeat: repeat;
   overflow-y: scroll;
 }
 
@@ -134,4 +133,17 @@ h1,h2,h3,h4,p{
 .bubble-cat-messages{
   padding: 20px;
   position: relative;
+}
+
+.send-message{
+  background-color: #182229;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opened-chat-container{
+  display: flex;
+  flex-direction: column;
 }
