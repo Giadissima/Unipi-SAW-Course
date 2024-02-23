@@ -7,134 +7,10 @@ svg cat-message: <svg viewBox="0 0 8 13" height="13" width="8" preserveAspectRat
 green: #176b5b
 */
 
-.side-bar{
-  width: 30%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.opened-chat-container{
-  width: 70%;
-  height: 100%;
-  background-color: #26353d;
-}
-
-.flex-container{
-  display: flex;
-  align-items: center;
-}
-
-.profile-pic{
-  width: 40px;
-  height: 40px;
-}
-
-.buttons-list{
-  display: flex;
-  justify-content: space-between;
-  background-color: #26353d;
-  padding: 10px;
-}
-
-.buttons-list>div{
-  padding: 5px;
-}
-
 body{
   margin: 0;
   padding: 0;
-}
-
-.find-chat{
-  position: relative;
-  padding: 10px;
-  width: 90%;
-}
-
-.find-chat-input{
-  padding-left: 30px;
-  background-color: #26353d;
-  height: 30px;
-  width: 81%;
-  border-radius: 6px;
-}
-
-.search-img{
-  position:absolute;
-  left: 12px;
-  padding-top:5px;
-  padding-left: 2px;
-}
-
-.filters{
-  display: flex;
-  justify-content: space-between;
-  background-color: #182229;
-  padding-left: 5px;
-  padding-right: 15px;
-}
-
-button{
-  background-color: transparent;
-  border: 0px;
-}
-
-.archived-chats {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #26353d;
-}
-
-.archived-button, .archive-link{
-  padding: 5px 10px;
-}
-.archived-button{
-  padding-right: 20px !important;
-}
-
-.archive-link{
-  text-align: center;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  ;
-}
-
-.thumbnail-photo{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-
-.cat-chat{
-  display: flex;
-  align-items: center;
-  padding:5px 15px 5px 15px;
-  background-color: #182229;
-  border: 0.2px solid gray;
-  padding: 10px;
-}
-
-.cat-name{
-  margin:0px;
-}
-
-.chat-preview{
-  margin:0px;
-}
-
-.last-message-timestamp{
-  margin-left: auto;
-}
-
-.cat-chat-preview{
-  padding-left:20px;
+  background-color: black;
 }
 
 .opened-chat-settings{
@@ -171,11 +47,12 @@ h1,h2,h3,h4,p{
   width: 100%;
   height: 100%;
   position: relative;
+  background-color: black;
 }
 .opened-chat > img{
   object-fit: cover;
   width: 100%;
-  height: 90.8vh;
+  height: 87.65vh;
 }
 
 .cats-chat-lists{
@@ -204,7 +81,7 @@ h1,h2,h3,h4,p{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 6px;
-  min-width: 100px;
+  min-width: 40px;
   max-width: 400px;
   text-align: center;
   border: 1px solid gray;
@@ -215,11 +92,15 @@ h1,h2,h3,h4,p{
   background-color: #176b5b;
   border-radius: 10px 0px 10px 10px;
   display: flex;
+  justify-content: flex-end;
 }
 
 .bubble-user-messages{
-  padding: 40px;
   position: relative;
+}
+
+.bubble-messages{
+  padding: 20px;
 }
 
 .messages{
@@ -251,6 +132,6 @@ h1,h2,h3,h4,p{
 }
 
 .bubble-cat-messages{
-  padding: 40px;
+  padding: 20px;
   position: relative;
 }
