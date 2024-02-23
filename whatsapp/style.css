@@ -39,6 +39,11 @@ h1,h2,h3,h4,p{
   margin:0px
 }
 
+.chat-settings{
+  display: flex;
+  align-items: center;
+}
+
 .chat-settings>svg{
   padding-left: 10px;
   padding-right: 10px;
